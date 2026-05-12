@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Kafka downloads (large binaries)
+kafka_*.tgz
+kafka/
+*.tgz
+*.tar.gz
+
+# AWS credentials
+.aws/
+*.pem
+*.ppk
+*.key
+.env
+
+# Data files
+*.csv
+data/
+output/
+logs/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
