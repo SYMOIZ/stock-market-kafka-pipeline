@@ -1,14 +1,16 @@
-# Python
+# Python bytecode
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 .Python
+
+# Build / packaging
 *.egg-info/
 dist/
 build/
 
-# Jupyter
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # Virtual environments
@@ -17,11 +19,11 @@ venv/
 env/
 ENV/
 
-# Kafka downloads (large binaries)
+# Kafka binary downloads (large archives)
 kafka_*.tgz
-kafka/
 *.tgz
 *.tar.gz
+kafka/
 
 # AWS credentials
 .aws/
@@ -29,12 +31,6 @@ kafka/
 *.ppk
 *.key
 .env
-
-# Data files
-*.csv
-data/
-output/
-logs/
 
 # OS artifacts
 .DS_Store
